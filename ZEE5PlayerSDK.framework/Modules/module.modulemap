@@ -1,0 +1,6 @@
+framework module ZEE5PlayerSDK {
+  umbrella header "ZEE5PlayerSDK.h"
+
+  export *
+  module * { export * }
+}
