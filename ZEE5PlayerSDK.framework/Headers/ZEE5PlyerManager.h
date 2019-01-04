@@ -40,7 +40,7 @@ NS_ASSUME_NONNULL_BEGIN
 -(CGFloat )getCurrentDuration;
 -(CGFloat )getTotalDuration;
 -(NSUInteger )getBufferPercentage;
-
+-(void)playSimilarEvent:(NSString *)content_id;
 @end
 
 NS_ASSUME_NONNULL_END

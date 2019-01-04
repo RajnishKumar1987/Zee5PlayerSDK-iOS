@@ -19,6 +19,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)availableAudioTracks:(NSArray *)aryModels;
 - (void)availableSubTitles:(NSArray *)aryModels;
 - (void)didTaponLiveButton:(NSString *)str;
+- (void)didFinishPlaying;
 
 @end
 

@@ -16,7 +16,6 @@ NS_ASSUME_NONNULL_BEGIN
 @property(nonatomic) BOOL isLandScape;
 @property(nonatomic) BOOL showFanADs;
 @property(nonatomic) BOOL showGoogleADs;
-@property(nonatomic) BOOL noAds;
 
 //@property(nonatomic) BOOL showSuggestions;
 
