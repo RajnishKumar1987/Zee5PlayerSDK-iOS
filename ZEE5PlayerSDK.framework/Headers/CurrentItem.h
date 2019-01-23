@@ -29,6 +29,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (strong, nonatomic) NSString* asset_subtype;
 @property (strong, nonatomic) NSArray<Genres*> *geners;
 @property (strong, nonatomic) NSArray<RelatedVideos*> *related;
+@property (strong, nonatomic) NSMutableArray<ZEE5AdModel*> *fanAds;
 @property (strong, nonatomic) NSArray<ZEE5AdModel*> *googleAds;
 
 @property(strong, nonnull) NSString *content_id;

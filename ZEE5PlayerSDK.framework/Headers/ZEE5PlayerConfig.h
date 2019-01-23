@@ -14,6 +14,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property(nonatomic) BOOL autoPlay;
 @property(nonatomic) BOOL showCustomPlayer;
 @property(nonatomic) BOOL isLandScape;
+@property(nonatomic) BOOL showFanADs;
 @property(nonatomic) BOOL showGoogleADs;
 
 //@property(nonatomic) BOOL showSuggestions;
