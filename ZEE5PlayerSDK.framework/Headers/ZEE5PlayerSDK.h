@@ -24,7 +24,7 @@ typedef enum devEnvironment
 
 
 #import <ZEE5PlayerSDK/ZEE5SdkError.h>
-#import <ZEE5PlayerSDK/ZEE5PlyerManager.h>
+#import <ZEE5PlayerSDK/ZEE5PlayerManager.h>
 #import <ZEE5PlayerSDK/ZEE5PlayerConfig.h>
 #import <ZEE5PlayerSDK/ZEE5PlayerDelegate.h>
 #import <ZEE5PlayerSDK/ZEE5AudioTrack.h>

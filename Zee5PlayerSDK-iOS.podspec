@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "Zee5PlayerSDK-iOS"
-  s.version      = "1.1.0"
+  s.version      = "1.1.1"
   s.summary      = "Zee5 Player SDK for iOS."
 
   s.homepage     = "https://github.com/RajnishKumar1987/Zee5PlayerSDK-iOS"

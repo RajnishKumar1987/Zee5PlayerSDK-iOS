@@ -13,13 +13,23 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+typedef NS_ENUM(NSInteger, PlayerControlState) {
+    Locked,
+    Unlocked
+};
+
+
 @protocol ZEE5PlayerDelegate <NSObject>
 @optional
 - (void)didFinishWithError:(ZEE5SdkError *)error;
 - (void)availableAudioTracks:(NSArray *)aryModels;
 - (void)availableSubTitles:(NSArray *)aryModels;
 - (void)didTaponLiveButton:(NSString *)str;
+- (void)didTaponNextButton;
+- (void)didTaponPrevButton;
 - (void)didFinishPlaying;
+- (void)didTaponMinimizeButton;
+- (void)didTaponLockButton:(PlayerControlState )state;
 
 @end
 

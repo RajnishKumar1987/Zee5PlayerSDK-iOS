@@ -34,6 +34,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property(strong, nonnull) NSString *content_id;
 @property(strong, nonnull) NSString *videoName;
+@property(strong, nonnull) NSString *showName;
 
 
 @end
