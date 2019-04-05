@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/RajnishKumar1987/Zee5PlayerSDK-iOS.git", :tag => s.version.to_s }
 
   s.ios.vendored_frameworks = "ZEE5PlayerSDK.framework"
-  s.dependency 'JWPlayer-SDK', '~> 3.0'
+  s.dependency 'JWPlayer-SDK', '~ 3.1'
   s.dependency 'GoogleAds-IMA-iOS-SDK', '~> 3.8'
   s.requires_arc = true
 
