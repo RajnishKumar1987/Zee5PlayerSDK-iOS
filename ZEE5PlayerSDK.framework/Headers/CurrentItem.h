@@ -21,6 +21,7 @@ NS_ASSUME_NONNULL_BEGIN
 @interface CurrentItem : NSObject
 @property(strong, nonnull) NSString *drm_key;
 @property(strong, nonnull) NSString *hls_Url;
+@property(strong, nonnull) NSString *hls_Full_Url;
 @property(strong, nonnull) NSString *drm_token;
 @property(strong, nonnull) NSString *business_type;
 @property(strong, nonnull) NSArray *subTitles;
@@ -33,9 +34,9 @@ NS_ASSUME_NONNULL_BEGIN
 @property (strong, nonatomic) NSArray<ZEE5AdModel*> *googleAds;
 
 @property(strong, nonnull) NSString *content_id;
-@property(strong, nonnull) NSString *videoName;
+@property(strong, nonnull) NSString *channel_Name;
 @property(strong, nonnull) NSString *showName;
-
+@property (nonatomic, readwrite)  BOOL isDRM;
 
 @end
 
